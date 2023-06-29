@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".cliente.EditarClienteActivity">
+
+    <include layout="@layout/formulario_cliente" />
+    <Button
+        android:id="@+id/actualizarButton"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/update"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        />
+    <Button
+        android:id="@+id/eliminarButton"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        />
+</LinearLayout>

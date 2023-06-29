@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/cardView">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <TextView
+            android:id="@+id/tipoIdentificacionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            tools:text="Cédula"/>
+
+        <TextView
+            android:id="@+id/identificacionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            tools:text="1234567890"/>
+
+        <TextView
+            android:id="@+id/nombreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            tools:text="John"/>
+
+        <TextView
+            android:id="@+id/primerApellidoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            tools:text="Doe"/>
+
+        <TextView
+            android:id="@+id/segundoApellidoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            tools:text="Smith"/>
+
+        <TextView
+            android:id="@+id/generoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            tools:text="Masculino"/>
+
+    </GridLayout>
+</androidx.cardview.widget.CardView>

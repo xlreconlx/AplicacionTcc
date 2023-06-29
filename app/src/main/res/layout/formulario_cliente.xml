@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+        <EditText
+            android:id="@+id/tipoIdentificacionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/identificationType"
+            android:inputType="text"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/identificacionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/identificationNumber"
+            android:inputType="text"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/nombreEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/primerApellidoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/firstName"
+            android:inputType="text"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/segundoApellidoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/lastName"
+            android:inputType="text"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/generoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/gender"
+            android:inputType="text"
+            android:layout_marginTop="16dp"/>
+
+</LinearLayout>
